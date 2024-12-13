@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.robot-list {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  background: #f8f8f8;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+.map-container {
+
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+
+                    display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    font-weight: 500;
+                    border-radius: 3px;
+                    padding: 0 16px;
+                    border-radius: 4px;
+                    color: #fff;
+                    background: #6200ee;
+                    line-height: 1.15;
+                    font-size: 14px;
+                    height: 36px;
+                    word-spacing: 0px;
+                    letter-spacing: .0892857143em;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    min-width: 64px;
+                    border: none;
+                    text-align: center;
+                    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+                    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+                    :hover {
+                        background: rgb(98, 0, 238);
+                        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+                    }
+
+}
+
+
+
